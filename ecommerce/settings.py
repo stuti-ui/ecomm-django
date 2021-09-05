@@ -130,4 +130,3 @@ MEDIA_URL="/images/"
 
 MEDIA_ROOT=os.path.join(BASE_DIR,'static/images')
 
-heroku config:set DISABLE_COLLECTSTATIC=1
